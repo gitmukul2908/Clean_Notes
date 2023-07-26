@@ -31,7 +31,7 @@ let addBtn = document.getElementById('addBtn').addEventListener('click', functio
 function showNotes() {
     let notes = localStorage.getItem('notes');
 
-    if (notes == null && title==null) {
+    if (notes == null) {
         notesObj = [];
     }
     else {
